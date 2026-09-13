@@ -1,7 +1,7 @@
 ---
 name: PL Meeting
 about: 구현 결과와 기술 문제, PL 답변을 정리합니다.
-title: "1회차-YYYY-MM-DD-pl-meeting"
+title: "[과정명] 1회차 PL 미팅 [YYYY.MM.DD]"
 labels: ""
 assignees: ""
 ---
