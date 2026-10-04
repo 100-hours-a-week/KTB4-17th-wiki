@@ -1,0 +1,46 @@
+{
+  "apiCase": "chat_message",
+  "endpoint": {
+    "method": "POST",
+    "path": "/api/v1/chat-rooms/{chatRoomId}/messages",
+    "expectedStatus": 201,
+    "kind": "write",
+    "requires": "CHAT_ROOM_ID"
+  },
+  "accountsUsed": 800,
+  "targetRequestsPerSecond": 11.483333333333333,
+  "actualRequestsPerSecond": 11.483333333333333,
+  "plannedRequests": 3445,
+  "dispatchedRequests": 3445,
+  "validRequests": 3445,
+  "successes": 3445,
+  "availabilityPercent": 100,
+  "latencyLimitMs": 1000,
+  "withinLatencyLimit": 3445,
+  "latencySliPercent": 100,
+  "responseDurationMs": {
+    "min": 16.442167,
+    "med": 21.058083,
+    "max": 247.876791,
+    "p(95)": 27.344983399999997,
+    "p(99)": 38.77270851999999,
+    "p(99.5)": 50.55819923999998,
+    "avg": 21.944774793613956
+  },
+  "iterationDurationMs": {
+    "med": 21.9365,
+    "max": 248.350417,
+    "p(95)": 28.462266399999997,
+    "p(99)": 44.61541303999998,
+    "p(99.5)": 53.50214473999998,
+    "avg": 22.913774533817158,
+    "min": 16.770083
+  },
+  "droppedIterations": 0,
+  "failureClassification": {
+    "dataShortage": 0,
+    "auth": 0,
+    "business": 0,
+    "infrastructure": 0
+  }
+}

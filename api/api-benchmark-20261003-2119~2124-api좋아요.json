@@ -1,0 +1,45 @@
+{
+  "apiCase": "likes",
+  "endpoint": {
+    "method": "POST",
+    "path": "/api/v1/likes",
+    "expectedStatus": 201,
+    "kind": "write",
+    "requires": "RECEIVER_IDS_JSON"
+  },
+  "targetRequestsPerSecond": 9.2,
+  "actualRequestsPerSecond": 9.2,
+  "plannedRequests": 2760,
+  "dispatchedRequests": 2760,
+  "validRequests": 2760,
+  "successes": 2760,
+  "availabilityPercent": 100,
+  "latencyLimitMs": 1000,
+  "withinLatencyLimit": 2760,
+  "latencySliPercent": 100,
+  "responseDurationMs": {
+    "med": 32.916666500000005,
+    "max": 115.99775,
+    "p(95)": 37.793856600000005,
+    "p(99)": 52.22344624999999,
+    "p(99.5)": 69.24730312499997,
+    "avg": 33.69600561485507,
+    "min": 28.316167
+  },
+  "iterationDurationMs": {
+    "p(95)": 38.82184615,
+    "p(99)": 56.565073279999964,
+    "p(99.5)": 70.35450749999997,
+    "avg": 34.523706659058014,
+    "min": 28.846292,
+    "med": 33.672396000000006,
+    "max": 116.577417
+  },
+  "droppedIterations": 0,
+  "failureClassification": {
+    "dataShortage": 0,
+    "auth": 0,
+    "business": 0,
+    "infrastructure": 0
+  }
+}

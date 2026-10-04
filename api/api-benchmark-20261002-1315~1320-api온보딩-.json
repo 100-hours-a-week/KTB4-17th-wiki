@@ -1,0 +1,44 @@
+{
+  "apiCase": "recommendation_active",
+  "endpoint": {
+    "method": "GET",
+    "path": "/api/v1/recommendation-batches/active",
+    "expectedStatus": 200,
+    "kind": "read"
+  },
+  "targetRequestsPerSecond": 11.483333333333333,
+  "actualRequestsPerSecond": 11.486666666666666,
+  "plannedRequests": 3445,
+  "dispatchedRequests": 3446,
+  "validRequests": 3446,
+  "successes": 3446,
+  "availabilityPercent": 100,
+  "latencyLimitMs": 1000,
+  "withinLatencyLimit": 3446,
+  "latencySliPercent": 100,
+  "responseDurationMs": {
+    "min": 11.133875,
+    "med": 18.654062,
+    "max": 221.042916,
+    "p(95)": 102.67533274999998,
+    "p(99)": 132.812942,
+    "p(99.5)": 150.78105639999998,
+    "avg": 32.033886121880464
+  },
+  "iterationDurationMs": {
+    "max": 390.713792,
+    "p(95)": 104.29985425,
+    "p(99)": 137.5208372,
+    "p(99.5)": 157.28135312499998,
+    "avg": 33.205895546140454,
+    "min": 11.528333,
+    "med": 19.4830625
+  },
+  "droppedIterations": 0,
+  "failureClassification": {
+    "dataShortage": 0,
+    "auth": 0,
+    "business": 0,
+    "infrastructure": 0
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "apiCase": "onboarding",
+  "endpoint": {
+    "method": "GET",
+    "path": "/api/v1/users/me/onboarding",
+    "expectedStatus": 200,
+    "kind": "read"
+  },
+  "targetRequestsPerSecond": 1.5333333333333334,
+  "actualRequestsPerSecond": 1.5366666666666666,
+  "plannedRequests": 460,
+  "dispatchedRequests": 461,
+  "validRequests": 461,
+  "successes": 461,
+  "availabilityPercent": 100,
+  "latencyLimitMs": 1000,
+  "withinLatencyLimit": 461,
+  "latencySliPercent": 100,
+  "responseDurationMs": {
+    "p(99.5)": 162.98989579999997,
+    "avg": 33.47584084815618,
+    "min": 11.368833,
+    "med": 20.041666,
+    "max": 184.970042,
+    "p(95)": 107.913042,
+    "p(99)": 133.87018359999996
+  },
+  "iterationDurationMs": {
+    "avg": 35.56407963340562,
+    "min": 12.080667,
+    "med": 21.34575,
+    "max": 185.647583,
+    "p(95)": 110.258625,
+    "p(99)": 144.0638998,
+    "p(99.5)": 163.57171699999998
+  },
+  "droppedIterations": 0,
+  "failureClassification": {
+    "dataShortage": 0,
+    "auth": 0,
+    "business": 0,
+    "infrastructure": 0
+  }
+}
